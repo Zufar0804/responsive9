@@ -1,0 +1,117 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    width: 450px;
+    height: 850px;
+    background-color: #102C57;
+    text-align: center;
+}
+.box2{
+    display: flex;
+}
+.box3{
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.box6{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.box7{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.box1 h1{
+    color: white;
+}
+.box1 p{
+    color: white;
+}
+.box1 button{
+    width: 330px;
+    height: 54px;
+    border-radius: 27px;
+    background-color: #DAC0A3;
+    margin-top: 30px;
+}
+.box4{
+    margin-top: 30px;
+    color: white;
+}
+.box5{
+    justify-content: space-around;
+    display: flex;
+    width: 130px;
+    height: 30px;
+    margin-left: 160px;
+}
+.box5 img{
+    width: 21px;
+    height: 21px;
+}
+.card2{
+    width: 450px;
+    height: 850px;
+    background-color: #102C57;
+}
+.card3{
+    color: white;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.card4{
+    color: white;
+    margin-left: 50px;
+}
+.box8{
+    color: white;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.card5 {
+    width: 330px;
+    height: 54px;
+    border-radius: 27px;
+}
+.box9{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 30px;
+}
+.box10{
+    width: 330px;
+    height: 54px;
+    border-radius: 27px;
+    background-color: #DAC0A3;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.box11{
+    margin-left: 100px;
+    margin-top: 25px;
+}
+.box11 a{
+    color: white;
+ 
+}
+.box13{
+    color: white;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+@media only  screen and (max-width:750px) {
+    .box{
+        display: block;
+    }
+    .card2{
+        margin-top: 20px;
+    }
+    .box12{
+        margin-top: 20px;
+    }
+}
